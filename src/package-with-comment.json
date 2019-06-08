@@ -68,21 +68,21 @@
             },
 */
             {
-                "key": "ctrl+shift+enter",
+                "key": "cmd+shift+enter",
                 "mac": "cmd+shift+enter",
                 "command": "acceptSelectedSuggestion",
                 "when": "editorFocus && suggestWidgetVisible",
                 "intellij": "Complete statement"
             },
             {
-                "key": "ctrl+p",
+                "key": "cmd+p",
                 "mac": "cmd+p",
                 "command": "editor.action.triggerParameterHints",
                 "when": "editorHasSignatureHelpProvider && editorTextFocus",
                 "intellij": "Parameter info (within method call arguments)"
             },
             {
-                "key": "ctrl+q",
+                "key": "ctrl+j",
                 "mac": "ctrl+j",
                 "command": "editor.action.showHover",
                 "when": "editorTextFocus",
@@ -90,7 +90,7 @@
             },
             /*
             {
-                "key": "ctrl+f1",
+                "key": "shift+f1",
                 "mac": "shift+f1",
                 "command": "",
                 "when": "",
@@ -100,7 +100,7 @@
 */
             /*
             {
-                "key": "ctrl+mouseover",
+                "key": "cmd+mouseover",
                 "mac": "cmd+mouseover",
                 "command": "",
                 "when": "",
@@ -109,7 +109,7 @@
             },
 */
             {
-                "key": "ctrl+f1",
+                "key": "cmd+f1",
                 "mac": "cmd+f1",
                 "command": "workbench.action.showErrorsWarnings",
                 "when": "editorTextFocus",
@@ -117,7 +117,7 @@
             },
             /*
             {
-                "key": "alt+insert",
+                "key": "cmd+n",
                 "mac": "cmd+n",
                 "command": "workbench.action.files.newUntitledFile",
                 "when": "!editorTextFocus",
@@ -126,7 +126,7 @@
             },
             */
             {
-                "key": "alt+insert",
+                "key": "cmd+n",
                 "mac": "cmd+n",
                 "command": "workbench.action.files.newUntitledFile"
             },
@@ -152,7 +152,7 @@
 */
             /*
             {
-                "key": "ctrl+alt+t",
+                "key": "cmd+alt+t",
                 "mac": "cmd+alt+t",
                 "command": "",
                 "when": "",
@@ -161,42 +161,42 @@
             },
 */
             {
-                "key": "ctrl+/",
+                "key": "cmd+/",
                 "mac": "cmd+/",
                 "command": "editor.action.commentLine",
                 "when": "editorTextFocus && !editorReadonly",
                 "intellij": "Comment/uncomment with line comment"
             },
             {
-                "key": "ctrl+numpad_divide",
+                "key": "cmd+numpad_divide",
                 "mac": "cmd+numpad_divide",
                 "command": "editor.action.commentLine",
                 "when": "editorTextFocus && !editorReadonly",
                 "intellij": "Comment/uncomment with line comment"
             },
             {
-                "key": "ctrl+alt+/",
+                "key": "cmd+alt+/",
                 "mac": "cmd+alt+/",
                 "command": "editor.action.blockComment",
                 "when": "editorTextFocus && !editorReadonly",
                 "intellij": "Comment/uncomment with block comment"
             },
             {
-                "key": "ctrl+alt+numpad_divide",
+                "key": "cmd+alt+numpad_divide",
                 "mac": "cmd+alt+numpad_divide",
                 "command": "editor.action.blockComment",
                 "when": "editorTextFocus && !editorReadonly",
                 "intellij": "Comment/uncomment with block comment"
             },
             {
-                "key": "ctrl+w",
+                "key": "alt+up",
                 "mac": "alt+up",
                 "command": "editor.action.smartSelect.grow",
                 "when": "editorTextFocus",
                 "intellij": "Select successively increasing code blocks"
             },
             {
-                "key": "ctrl+shift+w",
+                "key": "alt+down",
                 "mac": "alt+down",
                 "command": "editor.action.smartSelect.shrink",
                 "when": "editorTextFocus",
@@ -204,7 +204,7 @@
             },
             /*
             {
-                "key": "alt+q",
+                "key": "ctrl+shift+q",
                 "mac": "ctrl+shift+q",
                 "command": "",
                 "when": "",
@@ -220,14 +220,14 @@
                 "intellij": "Show intention actions and quick-fixes"
             },
             {
-                "key": "ctrl+alt+l",
+                "key": "cmd+alt+l",
                 "mac": "cmd+alt+l",
                 "command": "editor.action.formatDocument",
                 "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly",
                 "intellij": "Reformat code"
             },
             {
-                "key": "ctrl+alt+l",
+                "key": "cmd+alt+l",
                 "mac": "cmd+alt+l",
                 "command": "editor.action.formatSelection",
                 "when": "editorHasDocumentFormattingProvider && editorHasSelection && editorTextFocus && !editorReadonly",
@@ -272,28 +272,28 @@
             },
 */
             {
-                "key": "ctrl+x",
+                "key": "cmd+x",
                 "mac": "cmd+x",
                 "command": "editor.action.clipboardCutAction",
                 "when": "editorTextFocus && !editorReadonly",
                 "intellij": "Cut current line or selected block to clipboard"
             },
             {
-                "key": "shift+delete",
+                "key": "cmd+delete",
                 "mac": "cmd+delete",
                 "command": "editor.action.clipboardCutAction",
                 "when": "editorTextFocus && !editorReadonly",
                 "intellij": "Cut current line or selected block to clipboard"
             },
             {
-                "key": "ctrl+c",
+                "key": "cmd+c",
                 "mac": "cmd+c",
                 "command": "editor.action.clipboardCopyAction",
                 "when": "editorTextFocus",
                 "intellij": "Copy current line or selected block to clipboard"
             },
             {
-                "key": "ctrl+v",
+                "key": "cmd+v",
                 "mac": "cmd+v",
                 "command": "editor.action.clipboardPasteAction",
                 "when": "editorTextFocus && !editorReadonly",
@@ -301,7 +301,7 @@
             },
             /*
             {
-                "key": "ctrl+shift+v",
+                "key": "cmd+shift+v",
                 "mac": "cmd+shift+v",
                 "command": "",
                 "when": "",
@@ -310,14 +310,14 @@
             },
 */
             {
-                "key": "ctrl+d",
+                "key": "cmd+d",
                 "mac": "cmd+d",
                 "command": "editor.action.copyLinesDownAction",
                 "when": "editorTextFocus && !editorReadonly",
                 "intellij": "Duplicate current line or selected block"
             },
             {
-                "key": "ctrl+y",
+                "key": "cmd+backspace",
                 "mac": "cmd+backspace",
                 "command": "editor.action.deleteLines",
                 "when": "editorTextFocus && !editorReadonly",
@@ -331,7 +331,7 @@
                 "intellij": "Smart line join"
             },
             {
-                "key": "ctrl+enter",
+                "key": "cmd+enter",
                 "mac": "cmd+enter",
                 "command": "lineBreakInsert",
                 "when": "editorTextFocus && !editorReadonly",
@@ -346,7 +346,7 @@
             },
             /*
             {
-                "key": "ctrl+shift+u",
+                "key": "cmd+shift+u",
                 "mac": "cmd+shift+u",
                 "command": "",
                 "when": "",
@@ -356,7 +356,7 @@
 */
             /*
             {
-                "key": "ctrl+shift+]",
+                "key": "cmd+shift+]",
                 "mac": "cmd+shift+]",
                 "command": "",
                 "when": "",
@@ -366,7 +366,7 @@
 */
             /*
             {
-                "key": "ctrl+shift+[",
+                "key": "cmd+shift+[",
                 "mac": "cmd+shift+[",
                 "command": "",
                 "when": "",
@@ -375,90 +375,90 @@
             },
 */
             {
-                "key": "ctrl+delete",
+                "key": "alt+delete",
                 "mac": "alt+delete",
                 "command": "deleteWordRight",
                 "when": "editorTextFocus && !editorReadonly",
                 "intellij": "Delete to word end"
             },
             {
-                "key": "ctrl+backspace",
+                "key": "alt+backspace",
                 "mac": "alt+backspace",
                 "command": "deleteWordLeft",
                 "when": "editorTextFocus && !editorReadonly",
                 "intellij": "Delete to word start"
             },
             {
-                "key": "ctrl+=",
+                "key": "cmd+=",
                 "mac": "cmd+=",
                 "command": "editor.unfold",
                 "when": "editorFocus",
                 "intellij": "Expand code block"
             },
             {
-                "key": "ctrl+numpad_add",
+                "key": "cmd+numpad_add",
                 "mac": "cmd+numpad_add",
                 "command": "editor.unfold",
                 "when": "editorFocus",
                 "intellij": "Expand code block"
             },
             {
-                "key": "ctrl+-",
+                "key": "cmd+-",
                 "mac": "cmd+-",
                 "command": "editor.fold",
                 "when": "editorFocus",
                 "intellij": "Collapse code block"
             },
             {
-                "key": "ctrl+numpad_subtract",
+                "key": "cmd+numpad_subtract",
                 "mac": "cmd+numpad_subtract",
                 "command": "editor.fold",
                 "when": "editorFocus",
                 "intellij": "Collapse code block"
             },
             {
-                "key": "ctrl+shift+=",
+                "key": "cmd+shift+=",
                 "mac": "cmd+shift+=",
                 "command": "editor.unfoldAll",
                 "when": "editorFocus",
                 "intellij": "Expand all"
             },
             {
-                "key": "ctrl+shift+numpad_add",
+                "key": "cmd+shift+numpad_add",
                 "mac": "cmd+shift+numpad_add",
                 "command": "editor.unfoldAll",
                 "when": "editorFocus",
                 "intellij": "Expand all"
             },
             {
-                "key": "ctrl+shift+-",
+                "key": "cmd+shift+-",
                 "mac": "cmd+shift+-",
                 "command": "editor.foldAll",
                 "when": "editorFocus",
                 "intellij": "Collapse all"
             },
             {
-                "key": "ctrl+shift+numpad_subtract",
+                "key": "cmd+shift+numpad_subtract",
                 "mac": "cmd+shift+numpad_subtract",
                 "command": "editor.foldAll",
                 "when": "editorFocus",
                 "intellij": "Collapse all"
             },
             {
-                "key": "ctrl+f4",
+                "key": "cmd+w",
                 "mac": "cmd+w",
                 "command": "workbench.action.closeActiveEditor",
                 "intellij": "Close active editor tab"
             },
             {
-                "key": "alt+j",
+                "key": "ctrl+g",
                 "mac": "ctrl+g",
                 "command": "editor.action.addSelectionToNextFindMatch",
                 "when": "editorFocus",
                 "intellij": "Add selection for Next Occurrence"
             },
             {
-                "key": "alt+shift+j",
+                "key": "ctrl+shift+g",
                 "mac": "ctrl+shift+g",
                 "command": "cursorUndo",
                 "when": "editorTextFocus",
@@ -491,47 +491,47 @@
             },
 */
             {
-                "key": "ctrl+f",
+                "key": "cmd+f",
                 "mac": "cmd+f",
                 "command": "actions.find",
                 "intellij": "Find"
             },
             {
-                "key": "f3",
+                "key": "cmd+g",
                 "mac": "cmd+g",
                 "command": "editor.action.nextMatchFindAction",
                 "when": "editorFocus",
                 "intellij": "Find next"
             },
             {
-                "key": "shift+f3",
+                "key": "cmd+shift+g",
                 "mac": "cmd+shift+g",
                 "command": "editor.action.previousMatchFindAction",
                 "when": "editorFocus",
                 "intellij": "Find previous"
             },
             {
-                "key": "ctrl+r",
+                "key": "cmd+r",
                 "mac": "cmd+r",
                 "command": "editor.action.startFindReplaceAction",
                 "intellij": "Replace"
             },
             {
-                "key": "ctrl+shift+f",
+                "key": "cmd+shift+f",
                 "mac": "cmd+shift+f",
                 "command": "workbench.view.search",
                 "when": "!searchViewletVisible",
                 "intellij": "Find in path"
             },
             {
-                "key": "ctrl+shift+r",
+                "key": "cmd+shift+r",
                 "mac": "cmd+shift+r",
                 "command": "workbench.action.replaceInFiles",
                 "intellij": "Replace in path"
             },
             /*
             {
-                "key": "ctrl+shift+s",
+                "key": "cmd+shift+s",
                 "mac": "cmd+shift+s",
                 "command": "",
                 "intellij": "Search structurally (Ultimate Edition only)",
@@ -540,7 +540,7 @@
 */
             /*
             {
-                "key": "ctrl+shift+m",
+                "key": "cmd+shift+m",
                 "mac": "cmd+shift+m",
                 "command": "",
                 "intellij": "Replace structurally (Ultimate Edition only)",
@@ -558,7 +558,7 @@
                 "intellij": "Find usages"
             },
             {
-                "key": "alt+ctrl+f7",
+                "key": "alt+cmd+f7",
                 "mac": "alt+cmd+f7",
                 "command": "editor.action.referenceSearch.trigger",
                 "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor",
@@ -566,7 +566,7 @@
             },
             /*
             {
-                "key": "ctrl+f7",
+                "key": "cmd+f7",
                 "mac": "cmd+f7",
                 "command": "",
                 "when": "editorTextFocus",
@@ -576,7 +576,7 @@
 */
             /*
             {
-                "key": "ctrl+shift+f7",
+                "key": "cmd+shift+f7",
                 "mac": "cmd+shift+f7",
                 "command": "",
                 "when": "",
@@ -586,7 +586,7 @@
 */
             /*
             {
-                "key": "ctrl+alt+f7",
+                "key": "cmd+alt+f7",
                 "mac": "cmd+alt+f7",
                 "command": "",
                 "when": "editorTextFocus",
@@ -598,14 +598,14 @@
              * Compile and Run
             \*---------------------------------------------------------------*/
             {
-                "key": "ctrl+f9",
+                "key": "cmd+f9",
                 "mac": "cmd+f9",
                 "command": "workbench.action.tasks.build",
                 "intellij": "Make project (compile modifed and dependent)"
             },
             /*
             {
-                "key": "ctrl+shift+f9",
+                "key": "cmd+shift+f9",
                 "mac": "cmd+shift+f9",
                 "command": "",
                 "intellij": "Compile selected file, package or module",
@@ -613,20 +613,20 @@
             },
 */
             {
-                "key": "alt+shift+f10",
+                "key": "ctrl+alt+r",
                 "mac": "ctrl+alt+r",
                 "command": "workbench.action.tasks.runTask",
                 "intellij": "Select configuration and run"
             },
             {
-                "key": "alt+shift+f9",
+                "key": "ctrl+alt+d",
                 "mac": "ctrl+alt+d",
                 "command": "workbench.view.debug",
                 "intellij": "Select configuration and debug"
             },
             /*
             {
-                "key": "shift+f10",
+                "key": "ctrl+r",
                 "mac": "ctrl+r",
                 "command": "",
                 "intellij": "Run",
@@ -634,7 +634,7 @@
             },
 */
             {
-                "key": "shift+f9",
+                "key": "ctrl+d",
                 "mac": "ctrl+d",
                 "command": "workbench.action.debug.run",
                 "when": "!inDebugMode && !terminalFocus",
@@ -642,7 +642,7 @@
             },
             /*
             {
-                "key": "ctrl+shift+f10",
+                "key": "ctrl+shift+r",
                 "mac": "ctrl+shift+r",
                 "command": "",
                 "intellij": "Run context configuration from editor",
@@ -651,7 +651,7 @@
 */
             /*
             {
-                "key": "ctrl+shift+f10",
+                "key": "ctrl+shift+r",
                 "mac": "ctrl+shift+r",
                 "command": "",
                 "intellij": "Debug context configuration from editor",
@@ -715,21 +715,21 @@
                 "intellij": "Evaluate expression (selection)"
             },
             {
-                "key": "f9",
+                "key": "cmd+alt+r",
                 "mac": "cmd+alt+r",
                 "command": "workbench.action.debug.continue",
                 "when": "inDebugMode",
                 "intellij": "Resume program"
             },
             {
-                "key": "ctrl+f8",
+                "key": "cmd+f8",
                 "mac": "cmd+f8",
                 "command": "editor.debug.action.toggleBreakpoint",
                 "when": "editorTextFocus",
                 "intellij": "Toggle breakpoint"
             },
             {
-                "key": "ctrl+shift+f8",
+                "key": "cmd+shift+f8",
                 "mac": "cmd+shift+f8",
                 "command": "workbench.view.debug",
                 "intellij": "View breakpoints",
@@ -739,44 +739,44 @@
              * Navigation
             \*---------------------------------------------------------------*/
             {
-                "key": "ctrl+n",
+                "key": "cmd+o",
                 "mac": "cmd+o",
                 "command": "workbench.action.showAllSymbols",
                 "intellij": "Go to class",
                 "todo": "not only class"
             },
             {
-                "key": "ctrl+shift+n",
+                "key": "cmd+shift+o",
                 "mac": "cmd+shift+o",
                 "command": "workbench.action.quickOpen",
                 "intellij": "Go to file"
             },
             {
-                "key": "ctrl+alt+shift+n",
+                "key": "cmd+alt+o",
                 "mac": "cmd+alt+o",
                 "command": "workbench.action.gotoSymbol",
                 "intellij": "Go to symbol"
             },
             {
-                "key": "alt+left",
+                "key": "ctrl+left",
                 "mac": "ctrl+left",
                 "command": "workbench.action.previousEditor",
                 "intellij": "Go to previous editor tab"
             },
             {
-                "key": "",
+                "key": "shift+cmd+[",
                 "mac": "shift+cmd+[",
                 "command": "workbench.action.previousEditor",
                 "intellij": "Go to previous editor tab"
             },
             {
-                "key": "alt+right",
+                "key": "ctrl+right",
                 "mac": "ctrl+right",
                 "command": "workbench.action.nextEditor",
                 "intellij": "Go to next editor tab"
             },
             {
-                "key": "",
+                "key": "shift+cmd+]",
                 "mac": "shift+cmd+]",
                 "command": "workbench.action.nextEditor",
                 "intellij": "Go to next editor tab"
@@ -848,7 +848,7 @@
 */
             /*
             {
-                "key": "ctrl+shift+f4",
+                "key": "cmd+shift+f4",
                 "mac": "cmd+shift+f4",
                 "command": "",
                 "intellij": "Close active run/messages/find/... tab",
@@ -856,59 +856,59 @@
             },
 */
             {
-                "key": "ctrl+g",
+                "key": "cmd+l",
                 "mac": "cmd+l",
                 "command": "workbench.action.gotoLine",
                 "intellij": "Go to line"
             },
             {
-                "key": "ctrl+e",
+                "key": "cmd+e",
                 "mac": "cmd+e",
                 "command": "-actions.find"
             },
             {
-                "key": "ctrl+e",
+                "key": "cmd+e",
                 "mac": "cmd+e",
                 "command": "-workbench.action.openRecent"
             },
             {
-                "key": "ctrl+e",
+                "key": "cmd+e",
                 "mac": "cmd+e",
                 "command": "workbench.action.quickOpenNavigateNext",
                 "when": "inQuickOpen",
                 "intellij": "Recent files popup"
             },
             {
-                "key": "ctrl+e",
+                "key": "cmd+e",
                 "mac": "cmd+e",
                 "command": "workbench.action.openRecent"
             },
             {
-                "key": "ctrl+alt+left",
+                "key": "cmd+alt+left",
                 "mac": "cmd+alt+left",
                 "command": "workbench.action.navigateBack",
                 "intellij": "Navigate back"
             },
             {
-                "key": "",
+                "key": "cmd+[",
                 "mac": "cmd+[",
                 "command": "workbench.action.navigateBack",
                 "intellij": "Navigate back"
             },
             {
-                "key": "ctrl+alt+right",
+                "key": "cmd+alt+right",
                 "mac": "cmd+alt+right",
                 "command": "workbench.action.navigateForward",
                 "intellij": "Navigate forward"
             },
             {
-                "key": "",
+                "key": "cmd+]",
                 "mac": "cmd+]",
                 "command": "workbench.action.navigateForward",
                 "intellij": "Navigate forward"
             },
             {
-                "key": "ctrl+shift+backspace",
+                "key": "cmd+shift+backspace",
                 "mac": "cmd+shift+backspace",
                 "command": "workbench.action.navigateToLastEditLocation",
                 "intellij": "Navigate to last edit location"
@@ -924,28 +924,28 @@
             },
 */
             {
-                "key": "ctrl+b",
+                "key": "cmd+b",
                 "mac": "cmd+b",
                 "command": "editor.action.goToDeclaration",
                 "when": "editorHasDefinitionProvider && editorTextFocus",
                 "intellij": "Go to declaration"
             },
             {
-                "key": "ctrl+alt+b",
+                "key": "cmd+alt+b",
                 "mac": "cmd+alt+b",
                 "command": "editor.action.goToImplementation",
                 "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor",
                 "intellij": "Go to implementation(s)"
             },
             {
-                "key": "ctrl+shift+i",
+                "key": "alt+space",
                 "mac": "alt+space",
                 "command": "editor.action.previewDeclaration",
                 "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor",
                 "intellij": "Open quick definition lookup"
             },
             {
-                "key": "",
+                "key": "cmd+y",
                 "mac": "cmd+y",
                 "command": "editor.action.previewDeclaration",
                 "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor",
@@ -961,7 +961,7 @@
             },
             /*
             {
-                "key": "ctrl+u",
+                "key": "cmd+u",
                 "mac": "cmd+u",
                 "command": "",
                 "when": "editorTextFocus",
@@ -971,7 +971,7 @@
 */
             /*
             {
-                "key": "alt+up",
+                "key": "ctrl+up",
                 "mac": "ctrl+up",
                 "command": "",
                 "when": "editorTextFocus",
@@ -981,7 +981,7 @@
 */
             /*
             {
-                "key": "alt+down",
+                "key": "ctrl+down",
                 "mac": "ctrl+down",
                 "command": "",
                 "when": "editorTextFocus",
@@ -991,7 +991,7 @@
 */
             /*
             {
-                "key": "ctrl+]",
+                "key": "cmd+]",
                 "mac": "cmd+]",
                 "command": "",
                 "when": "editorTextFocus",
@@ -1001,7 +1001,7 @@
 */
             /*
             {
-                "key": "ctrl+[",
+                "key": "cmd+[",
                 "mac": "cmd+[",
                 "command": "",
                 "when": "editorTextFocus",
@@ -1010,7 +1010,7 @@
             },
 */
             {
-                "key": "ctrl+f12",
+                "key": "cmd+f12",
                 "mac": "cmd+f12",
                 "command": "workbench.action.gotoSymbol",
                 "when": "editorTextFocus",
@@ -1028,7 +1028,7 @@
 */
             /*
             {
-                "key": "ctrl+shift+h",
+                "key": "cmd+shift+h",
                 "mac": "cmd+shift+h",
                 "command": "",
                 "when": "editorTextFocus",
@@ -1075,21 +1075,21 @@
                 "intellij": "Edit source"
             },
             {
-                "key": "ctrl+enter",
+                "key": "cmd+down",
                 "mac": "cmd+down",
                 "command": "editor.action.goToDeclaration",
                 "when": "editorHasDefinitionProvider && editorTextFocus",
                 "intellij": "View source"
             },
             {
-                "key": "shift+ctrl+down",
+                "key": "shift+alt+down",
                 "mac": "shift+alt+down",
                 "command": "editor.action.moveLinesDownAction",
                 "when": "editorTextFocus && !editorReadonly",
                 "intellij": "Move Statement Down"
             },
             {
-                "key": "shift+ctrl+up",
+                "key": "shift+alt+up",
                 "mac": "shift+alt+up",
                 "command": "editor.action.moveLinesUpAction",
                 "when": "editorTextFocus && !editorReadonly",
@@ -1106,7 +1106,7 @@
 */
             /*
             {
-                "key": "f11",
+                "key": "f3",
                 "mac": "f3",
                 "command": "",
                 "when": "editorTextFocus",
@@ -1116,7 +1116,7 @@
 */
             /*
             {
-                "key": "ctrl+f11",
+                "key": "alt+f3",
                 "mac": "alt+f3",
                 "command": "",
                 "intellij": "Toggle bookmark with mnemonic",
@@ -1134,7 +1134,7 @@
 */
             /*
             {
-                "key": "shift+f11",
+                "key": "cmd+f3",
                 "mac": "cmd+f3",
                 "command": "",
                 "intellij": "Show bookmarks",
@@ -1180,7 +1180,7 @@
 */
             /*
             {
-                "key": "alt+delete",
+                "key": "cmd+delete",
                 "mac": "cmd+delete",
                 "command": "",
                 "when": "editorTextFocus",
@@ -1204,7 +1204,7 @@
             },
             /*
             {
-                "key": "ctrl+f6",
+                "key": "cmd+f6",
                 "mac": "cmd+f6",
                 "command": "",
                 "when": "editorTextFocus",
@@ -1214,7 +1214,7 @@
 */
             /*
             {
-                "key": "ctrl+alt+n",
+                "key": "cmd+alt+n",
                 "mac": "cmd+alt+n",
                 "command": "",
                 "when": "editorTextFocus",
@@ -1223,7 +1223,7 @@
             },
 */
             {
-                "key": "ctrl+alt+m",
+                "key": "cmd+alt+m",
                 "mac": "cmd+alt+m",
                 "command": "editor.action.codeAction",
                 "when": "editorTextFocus",
@@ -1234,7 +1234,7 @@
                 }
             },
             {
-                "key": "ctrl+alt+v",
+                "key": "cmd+alt+v",
                 "mac": "cmd+alt+v",
                 "command": "editor.action.codeAction",
                 "when": "editorTextFocus",
@@ -1246,7 +1246,7 @@
             },
             /*
             {
-                "key": "ctrl+alt+f",
+                "key": "cmd+alt+f",
                 "mac": "cmd+alt+f",
                 "command": "",
                 "when": "editorTextFocus",
@@ -1256,7 +1256,7 @@
 */
             /*
             {
-                "key": "ctrl+alt+c",
+                "key": "cmd+alt+c",
                 "mac": "cmd+alt+c",
                 "command": "",
                 "when": "editorTextFocus",
@@ -1266,7 +1266,7 @@
 */
             /*
             {
-                "key": "ctrl+alt+p",
+                "key": "cmd+alt+p",
                 "mac": "cmd+alt+p",
                 "command": "",
                 "when": "editorTextFocus",
@@ -1278,27 +1278,27 @@
              * VCS/Local History
             \*---------------------------------------------------------------*/
             {
-                "key": "ctrl+k",
+                "key": "cmd+k",
                 "mac": "cmd+k",
                 "command": "git.commitAll",
                 "when": "!inDebugMode && !terminalFocus",
                 "intellij": "Commit project to VCS"
             },
             {
-                "key": "ctrl+shift+k",
+                "key": "cmd+shift+k",
                 "mac": "cmd+shift+k",
                 "command": "git.pushTo",
                 "when": "!inDebugMode && !terminalFocus",
                 "intellij": "Push commits to VCS"
             },
             {
-                "key": "ctrl+t",
+                "key": "cmd+t",
                 "mac": "cmd+t",
                 "command": "git.sync",
                 "intellij": "Update project from VCS"
             },
             {
-                "key": "ctrl+alt+z",
+                "key": "cmd+alt+z",
                 "mac": "cmd+alt+z",
                 "command": "git.revertSelectedRanges",
                 "intellij": "Rollback Lines"
@@ -1313,7 +1313,7 @@
             },
 */
             {
-                "key": "ctrl+`",
+                "key": "ctrl+v",
                 "mac": "ctrl+v",
                 "command": "workbench.view.scm",
                 "intellij": "‘VCS’ quick popup",
@@ -1324,7 +1324,7 @@
             \*---------------------------------------------------------------*/
             /*
             {
-                "key": "ctrl+alt+j",
+                "key": "cmd+alt+j",
                 "mac": "cmd+alt+j",
                 "command": "",
                 "intellij": "Surround with Live Template",
@@ -1333,7 +1333,7 @@
 */
             /*
             {
-                "key": "ctrl+j",
+                "key": "cmd+j",
                 "mac": "cmd+j",
                 "command": "",
                 "intellij": "Insert Live Template",
@@ -1344,149 +1344,149 @@
              * General
             \*---------------------------------------------------------------*/
             {
-                "key": "alt+0",
+                "key": "cmd+0",
                 "mac": "cmd+0",
                 "command": "workbench.actions.view.problems",
                 "intellij": "Activate Messages window (Problems)"
             },
             {
-                "key": "alt+numpad0",
+                "key": "cmd+numpad0",
                 "mac": "cmd+numpad0",
                 "command": "workbench.actions.view.problems",
                 "intellij": "Activate Messages window (Problems)"
             },
             {
-                "key": "alt+1",
+                "key": "cmd+1",
                 "mac": "cmd+1",
                 "command": "workbench.view.explorer",
                 "when": "editorFocus",
                 "intellij": "Open corresponding tool window (Explorer)"
             },
             {
-                "key": "alt+numpad1",
+                "key": "cmd+numpad1",
                 "mac": "cmd+numpad1",
                 "command": "workbench.view.explorer",
                 "when": "editorFocus",
                 "intellij": "Open corresponding tool window (Explorer)"
             },
             {
-                "key": "alt+1",
+                "key": "cmd+1",
                 "mac": "cmd+1",
                 "command": "workbench.action.toggleSidebarVisibility",
                 "when": "!editorFocus",
                 "intellij": "Close corresponding tool window (Explorer)"
             },
             {
-                "key": "alt+numpad1",
+                "key": "cmd+numpad1",
                 "mac": "cmd+numpad1",
                 "command": "workbench.action.toggleSidebarVisibility",
                 "when": "!editorFocus",
                 "intellij": "Close corresponding tool window (Explorer)"
             },
             {
-                "key": "alt+3",
+                "key": "cmd+3",
                 "mac": "cmd+3",
                 "command": "workbench.view.search",
                 "when": "!searchViewletVisible",
                 "intellij": "Open corresponding tool window (Search)"
             },
             {
-                "key": "alt+numpad3",
+                "key": "cmd+numpad3",
                 "mac": "cmd+numpad3",
                 "command": "workbench.view.search",
                 "when": "!searchViewletVisible",
                 "intellij": "Open corresponding tool window (Search)"
             },
             {
-                "key": "alt+3",
+                "key": "cmd+3",
                 "mac": "cmd+3",
                 "command": "workbench.action.toggleSidebarVisibility",
                 "when": "searchViewletVisible",
                 "intellij": "Close corresponding tool window (Search)"
             },
             {
-                "key": "alt+numpad3",
+                "key": "cmd+numpad3",
                 "mac": "cmd+numpad3",
                 "command": "workbench.action.toggleSidebarVisibility",
                 "when": "searchViewletVisible",
                 "intellij": "Close corresponding tool window (Search)"
             },
             {
-                "key": "alt+5",
+                "key": "cmd+5",
                 "mac": "cmd+5",
                 "command": "workbench.view.debug",
                 "when": "editorFocus",
                 "intellij": "Open corresponding tool window (Debug)"
             },
             {
-                "key": "alt+numpad5",
+                "key": "cmd+numpad5",
                 "mac": "cmd+numpad5",
                 "command": "workbench.view.debug",
                 "when": "editorFocus",
                 "intellij": "Open corresponding tool window (Debug)"
             },
             {
-                "key": "alt+5",
+                "key": "cmd+5",
                 "mac": "cmd+5",
                 "command": "workbench.action.toggleSidebarVisibility",
                 "when": "!editorFocus",
                 "intellij": "Close corresponding tool window (Debug)"
             },
             {
-                "key": "alt+numpad5",
+                "key": "cmd+numpad5",
                 "mac": "cmd+numpad5",
                 "command": "workbench.action.toggleSidebarVisibility",
                 "when": "!editorFocus",
                 "intellij": "Close corresponding tool window (Debug)"
             },
             {
-                "key": "alt+9",
+                "key": "cmd+9",
                 "mac": "cmd+9",
                 "command": "workbench.view.scm",
                 "when": "editorFocus",
                 "intellij": "Open corresponding tool window (Git)"
             },
             {
-                "key": "alt+numpad9",
+                "key": "cmd+numpad9",
                 "mac": "cmd+numpad9",
                 "command": "workbench.view.git",
                 "when": "editorFocus",
                 "intellij": "Open corresponding tool window (Git)"
             },
             {
-                "key": "alt+9",
+                "key": "cmd+9",
                 "mac": "cmd+9",
                 "command": "workbench.action.toggleSidebarVisibility",
                 "when": "!editorFocus",
                 "intellij": "Close corresponding tool window (Git)"
             },
             {
-                "key": "alt+numpad9",
+                "key": "cmd+numpad9",
                 "mac": "cmd+numpad9",
                 "command": "workbench.action.toggleSidebarVisibility",
                 "when": "!editorFocus",
                 "intellij": "Close corresponding tool window (Git)"
             },
             {
-                "key": "ctrl+s",
+                "key": "cmd+s",
                 "mac": "cmd+s",
                 "command": "workbench.action.files.saveAll",
                 "intellij": "Save all"
             },
             {
-                "key": "ctrl+alt+y",
+                "key": "cmd+alt+y",
                 "mac": "cmd+alt+y",
                 "command": "workbench.action.sync",
                 "intellij": "Synchronize"
             },
             {
-                "key": "ctrl+alt+f", // N/A
+                "key": "ctrl+cmd+f",
                 "mac": "ctrl+cmd+f",
                 "command": "workbench.action.toggleFullScreen",
                 "intellij": "Toggle full screen mode"
             },
             {
-                "key": "ctrl+shift+f12",
+                "key": "cmd+shift+f12",
                 "mac": "cmd+shift+f12",
                 "command": "workbench.action.maximizeEditor",
                 "intellij": "Toggle maximizing editor",
@@ -1517,25 +1517,25 @@
                 "intellij": "Quick switch current scheme"
             },
             {
-                "key": "ctrl+alt+s",
+                "key": "cmd+,",
                 "mac": "cmd+,",
                 "command": "workbench.action.openGlobalSettings",
                 "intellij": "Open Settings dialog"
             },
             {
-                "key": "ctrl+alt+s",
+                "key": "cmd+numpad_separator",
                 "mac": "cmd+numpad_separator",
                 "command": "workbench.action.openGlobalSettings",
                 "intellij": "Open Settings dialog"
             },
             {
-                "key": "ctrl+alt+shift+s",
+                "key": "cmd+;",
                 "mac": "cmd+;",
                 "command": "workbench.action.tasks.configureTaskRunner",
                 "intellij": "Open Project Structure dialog"
             },
             {
-                "key": "ctrl+shift+a",
+                "key": "shift+cmd+a",
                 "mac": "shift+cmd+a",
                 "command": "workbench.action.showCommands",
                 "intellij": "Find Action"
@@ -1565,14 +1565,14 @@
                 "intellij": "Previous difference"
             },
             {
-                "key": "alt+ctrl+enter",
+                "key": "alt+cmd+enter",
                 "mac": "alt+cmd+enter",
                 "command": "editor.action.insertLineBefore",
                 "when": "editorTextFocus && !editorReadonly",
                 "intellij": "Start new line before current"
             },
             {
-                "key": "shift+ctrl+enter",
+                "key": "shift+cmd+enter",
                 "mac": "shift+cmd+enter",
                 "command": "editor.action.insertLineAfter",
                 "when": "editorTextFocus && !editorReadonly && !suggestWidgetVisible",
@@ -1593,21 +1593,21 @@
                 "intellij": "Close corresponding tool window (Terminal)"
             },
             {
-                "key": "ctrl+shift+alt+j",
+                "key": "ctrl+cmd+g",
                 "mac": "ctrl+cmd+g",
                 "command": "editor.action.selectHighlights",
                 "when": "editorFocus",
                 "intellij": "Sublime Text style multiple selections"
             },
             {
-                "key": "alt+left",
+                "key": "shift+cmd+[",
                 "mac": "shift+cmd+[",
                 "command": "workbench.action.terminal.focusPrevious",
                 "when": "terminalFocus",
                 "intellij": "Select previous tab (Terminal)"
             },
             {
-                "key": "alt+right",
+                "key": "shift+cmd+]",
                 "mac": "shift+cmd+]",
                 "command": "workbench.action.terminal.focusNext",
                 "when": "terminalFocus",
@@ -1642,7 +1642,7 @@
                 "when": "editorFocus"
             },
             {
-                "key": "shift+ctrl+c",
+                "key": "shift+cmd+c",
                 "mac": "shift+cmd+c",
                 "command": "copyFilePath",
                 "intellij": "Copy paths",
